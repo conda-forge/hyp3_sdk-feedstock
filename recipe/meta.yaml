@@ -1,5 +1,5 @@
 {% set name = "hyp3_sdk" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8dbb4844c8f807e91b4bfc615fae51061f0a67a66758a9f5f1aa14ea58c3556b
+  sha256: 781da8093f046b34f6321608dc9a1c2e571b68401f60896b12b97fb3994ab0ca
 
 build:
   noarch: python
@@ -30,6 +30,7 @@ requirements:
 test:
   imports:
     - hyp3_sdk
+    - hyp3_sdk.asf_search
     - hyp3_sdk.jobs
     - hyp3_sdk.hyp3
     - hyp3_sdk.util
