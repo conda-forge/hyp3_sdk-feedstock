@@ -23,7 +23,6 @@ requirements:
     - wheel
   run:
     - python >=3.8
-    - colorama # [win]
     - python-dateutil
     - requests
     - tqdm
