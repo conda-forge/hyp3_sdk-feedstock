@@ -1,5 +1,5 @@
 {% set name = "hyp3_sdk" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b5c9043d496637ec4298599ed082e5dc06c3c73a603f2e183e8003e2d68ff13d
+  sha256: f7978b829638a381464db35ccc2657a881c40d1f38078fb792cea376db6fe4cc
 
 build:
   noarch: python
