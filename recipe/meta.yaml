@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - setuptools >=61
     - setuptools_scm >=6.2
     - python-build
   run:
-    - python >=3.8
+    - python >=3.9
     - python-dateutil
     - requests
     - tqdm
@@ -50,3 +50,4 @@ extra:
     - asjohnston-asf
     - jtherrmann
     - jacquelynsmale
+    - forrestfwilliams
