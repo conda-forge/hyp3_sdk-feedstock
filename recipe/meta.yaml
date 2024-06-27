@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.10
     - setuptools >=61
     - setuptools_scm >=6.2
     - python-build
   run:
-    - python >=3.9
+    - python >=3.10
     - python-dateutil
     - requests
     - tqdm
