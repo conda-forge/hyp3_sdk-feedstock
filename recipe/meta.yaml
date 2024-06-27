@@ -1,5 +1,5 @@
 {% set name = "hyp3_sdk" %}
-{% set version = "6.2.0" %}
+{% set version = "7.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1ae85f3ad476b70c8332e2abea25cb275c0c9d10b3d9d2db1b6ce6a36755150b
+  sha256: 9970beab627481dce35e08d4ae48c0c0fef0d5cab4e746b473b3f659ce59bf81
 
 build:
   noarch: python
@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.10
     - setuptools >=61
     - setuptools_scm >=6.2
     - python-build
   run:
-    - python >=3.9
+    - python >=3.10
     - python-dateutil
     - requests
     - tqdm
