@@ -1,13 +1,14 @@
 {% set name = "hyp3_sdk" %}
-{% set version = "7.0.1" %}
+{% set version = "7.0.2" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dadbdbe8da8faddb56f9d2fbe3f549b33394cc641428794663635586b7eb70c1
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bfef425b5a58f96b81a13645dd688a06dd490d32312b247393d7681661fef7fd
 
 build:
   noarch: python
@@ -17,18 +18,20 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.10
+    - python {{ python_min }}
     - setuptools >=61
     - setuptools_scm >=6.2
     - python-build
   run:
-    - python >=3.10
+    - python >={{ python_min }}
     - python-dateutil
     - requests
     - tqdm
     - urllib3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - hyp3_sdk
     - hyp3_sdk.jobs
