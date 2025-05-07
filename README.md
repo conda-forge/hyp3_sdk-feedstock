@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-hyp3_sdk-green.svg)](https://anaconda.org/conda-forge/hyp3_sdk) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hyp3_sdk.svg)](https://anaconda.org/conda-forge/hyp3_sdk) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hyp3_sdk.svg)](https://anaconda.org/conda-forge/hyp3_sdk) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hyp3_sdk.svg)](https://anaconda.org/conda-forge/hyp3_sdk) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-hyp3__sdk-green.svg)](https://anaconda.org/conda-forge/hyp3_sdk) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hyp3_sdk.svg)](https://anaconda.org/conda-forge/hyp3_sdk) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hyp3_sdk.svg)](https://anaconda.org/conda-forge/hyp3_sdk) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hyp3_sdk.svg)](https://anaconda.org/conda-forge/hyp3_sdk) |
 
 Installing hyp3_sdk
 ===================
@@ -150,7 +150,4 @@ Feedstock Maintainers
 * [@jhkennedy](https://github.com/jhkennedy/)
 * [@jtherrmann](https://github.com/jtherrmann/)
 * [@williamh890](https://github.com/williamh890/)
-
-
-<!-- dummy commit to enable rerendering -->
 
